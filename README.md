@@ -2,6 +2,7 @@
 
 ## Main Window
 ![Main Window](App/pictures/1.PNG)
+
 The health monitoring platform has three options: **Data Acquisition**, **Training/Validation**, and **Monitoring**. Each option opens a different window with its own graphics and functionalities, which are explained in this document.
 
 ---
