@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2918742704" file="C:\Users\pgsf\OneDrive - Syddansk Universitet\App\MonitoringPlatform.prj" location="C:\Users\pgsf\OneDrive - Syddansk Universitet\App" name="MonitoringPlatform" target="target.mlapps" target-name="Package App">
+    <param.appname>MonitoringPlatform</param.appname>
+    <param.authnamewatermark>Paula Solorzano, Angel Espin, Domenica Bri</param.authnamewatermark>
+    <param.email>guliana.pau@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\pgsf\OneDrive - Syddansk Universitet</param.output>
+    <param.guid>6e446bfa-fb43-45e2-874f-0202e9be2b6a</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MonitoringPlatform.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DataAcquisition.mlapp</file>
+      <file>${PROJECT_ROOT}\roc_analysis.m</file>
+      <file>${PROJECT_ROOT}\Screenshot 2024-03-15 055403.png</file>
+      <file>${PROJECT_ROOT}\searchicon.png</file>
+      <file>${PROJECT_ROOT}\Validation.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\archiveicon.png</file>
+      <file>${PROJECT_ROOT}\DSFs_Modal.mat</file>
+      <file>${PROJECT_ROOT}\MDOF_SeriesSys_MCsimulation.mat</file>
+      <file>${PROJECT_ROOT}\save.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\pgsf" name="OneDrive - Syddansk Universitet" optional="false">C:\Users\pgsf\OneDrive - Syddansk Universitet</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
